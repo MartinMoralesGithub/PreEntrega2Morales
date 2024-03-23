@@ -1,0 +1,145 @@
+{
+    "categorias": [
+      {"id": 1, "nombre": "hombre"},
+      {"id": 2, "nombre": "mujer"},
+      {"id": 3, "nombre": "niño"}
+    ],
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Zapatillas  hombre 1",
+        "descripcion": "Zapatillas deportivas  hombre",
+        "colores": ["negro", "blanco", "azul"],
+        "tallas": ["40", "41", "42", "43", "44"],
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_900446-MLA47191153948_082021-O.webp",
+        "categoria": "hombre"
+      },
+      {
+        "id": 2,
+        "nombre": "Zapatillas  hombre 2",
+        "descripcion": "Zapatillas deportivas  hombre",
+        "colores": ["gris", "rojo", "verde"],
+        "tallas": ["40", "41", "42", "43", "44"],
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_900446-MLA47191153948_082021-O.webp",
+        "categoria": "hombre"
+      },
+      {
+        "id": 3,
+        "nombre": "Zapatillas hombre 3",
+        "descripcion": "Zapatillas deportivas  hombre",
+        "colores": ["azul", "blanco", "gris"],
+        "tallas": ["40", "41", "42", "43", "44"],
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_900446-MLA47191153948_082021-O.webp",
+        "categoria": "hombre"
+      },
+      {
+        "id": 4,
+        "nombre": "Zapatillas hombre 4",
+        "descripcion": "Zapatillas deportivas  hombre",
+        "colores": ["negro", "blanco", "gris"],
+        "tallas": ["40", "41", "42", "43", "44"],
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_900446-MLA47191153948_082021-O.webp",
+        "categoria": "hombre"
+      },
+      {
+        "id": 5,
+        "nombre": "Zapatillas mujer 1",
+        "descripcion": "Zapatillas deportivas  mujer",
+        "colores": ["rosa", "blanco", "gris"],
+        "tallas": ["36", "37", "38", "39", "40"],
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
+        "categoria": "mujer"
+      },
+      {
+        "id": 6,
+        "nombre": "Zapatillas mujer 2",
+        "descripcion": "Zapatillas deportivas  mujer",
+        "colores": ["negro", "blanco", "azul"],
+        "tallas": ["36", "37", "38", "39", "40"],
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
+        "categoria": "mujer"
+      },
+      {
+        "id": 7,
+        "nombre": "Zapatillas mujer 3",
+        "descripcion": "Zapatillas deportivas  mujer",
+        "colores": ["gris", "rojo", "verde"],
+        "tallas": ["36", "37", "38", "39", "40"],
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
+        "categoria": "mujer"
+      },
+      {
+        "id": 8,
+        "nombre": "Zapatillas mujer 4",
+        "descripcion": "Zapatillas deportivas  mujer",
+        "colores": ["azul", "blanco", "gris"],
+        "tallas": ["36", "37", "38", "39", "40"],
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
+        "categoria": "mujer"
+      },
+      {
+        "id": 9,
+        "nombre": "Zapatillas niño 1",
+        "descripcion": "Zapatillas deportivas  niño",
+        "colores": ["azul", "rojo", "verde"],
+        "tallas": ["25", "26", "27", "28", "29", "30"],
+        "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatilla-puma-r78-ni_o-gris-640010373617007-1.jpg",
+        "categoria": "niño"
+      },
+      {
+        "id": 10,
+        "nombre": "Zapatillas niño 2",
+        "descripcion": "Zapatillas deportivas  niño",
+        "colores": ["negro", "blanco", "gris"],
+        "tallas": ["25", "26", "27", "28", "29", "30"],
+        "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatilla-puma-r78-ni_o-gris-640010373617007-1.jpg",
+        "categoria": "niño"
+      },
+      {
+        "id": 11,
+        "nombre": "Zapatillas niño 3",
+        "descripcion": "Zapatillas deportivas  niño",
+        "colores": ["azul", "rojo", "verde"],
+        "tallas": ["25", "26", "27", "28", "29", "30"],
+        "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatilla-puma-r78-ni_o-gris-640010373617007-1.jpg",
+        "categoria": "niño"
+      },
+      {
+        "id": 12,
+        "nombre": "Zapatillas niño 4",
+        "descripcion": "Zapatillas deportivas  niño",
+        "colores": ["negro", "blanco", "gris"],
+        "tallas": ["25", "26", "27", "28", "29", "30"],
+        "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatilla-puma-r78-ni_o-gris-640010373617007-1.jpg",
+        "categoria": "niño"
+      },
+      {
+        "id": 13,
+        "nombre": "Zapatillas mujer 5",
+        "descripcion": "Zapatillas deportivas  running",
+        "colores": ["negro", "blanco", "azul"],
+        "tallas": ["37", "38", "39", "40", "41", "42", "43", "44", "45"],
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
+        "categoria": "mujer"
+      },
+      {
+        "id": 14,
+        "nombre": "Zapatillas mujer 6",
+        "descripcion": "Zapatillas deportivas  running",
+        "colores": ["gris", "rojo", "verde"],
+        "tallas": ["37", "38", "39", "40", "41", "42", "43", "44", "45"],
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
+        "categoria": "mujer"
+      },
+      {
+        "id": 15,
+        "nombre": "Zapatillas mujer 7",
+        "descripcion": "Zapatillas deportivas  running",
+        "colores": ["azul", "blanco", "gris"],
+        "tallas": ["37", "38", "39", "40", "41", "42", "43", "44", "45"],
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
+        "categoria": "mujer"
+      }
+    ]
+  }
+  
