@@ -12,7 +12,8 @@
         "colores": ["negro", "blanco", "azul"],
         "tallas": ["40", "41", "42", "43", "44"],
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_900446-MLA47191153948_082021-O.webp",
-        "categoria": "hombre"
+        "categoria": "hombre",
+        "precio": 50000
       },
       {
         "id": 2,
@@ -21,7 +22,9 @@
         "colores": ["gris", "rojo", "verde"],
         "tallas": ["40", "41", "42", "43", "44"],
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_900446-MLA47191153948_082021-O.webp",
-        "categoria": "hombre"
+        "categoria": "hombre",
+        "precio": 50000
+
       },
       {
         "id": 3,
@@ -30,7 +33,9 @@
         "colores": ["azul", "blanco", "gris"],
         "tallas": ["40", "41", "42", "43", "44"],
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_900446-MLA47191153948_082021-O.webp",
-        "categoria": "hombre"
+        "categoria": "hombre",
+        "precio": 50000
+
       },
       {
         "id": 4,
@@ -39,7 +44,9 @@
         "colores": ["negro", "blanco", "gris"],
         "tallas": ["40", "41", "42", "43", "44"],
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_900446-MLA47191153948_082021-O.webp",
-        "categoria": "hombre"
+        "categoria": "hombre",
+        "precio": 50000
+
       },
       {
         "id": 5,
@@ -48,7 +55,9 @@
         "colores": ["rosa", "blanco", "gris"],
         "tallas": ["36", "37", "38", "39", "40"],
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
-        "categoria": "mujer"
+        "categoria": "mujer",
+        "precio": 50000
+
       },
       {
         "id": 6,
@@ -57,7 +66,9 @@
         "colores": ["negro", "blanco", "azul"],
         "tallas": ["36", "37", "38", "39", "40"],
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
-        "categoria": "mujer"
+        "categoria": "mujer",
+        "precio": 50000
+
       },
       {
         "id": 7,
@@ -66,7 +77,9 @@
         "colores": ["gris", "rojo", "verde"],
         "tallas": ["36", "37", "38", "39", "40"],
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
-        "categoria": "mujer"
+        "categoria": "mujer",
+        "precio": 50000
+
       },
       {
         "id": 8,
@@ -75,7 +88,9 @@
         "colores": ["azul", "blanco", "gris"],
         "tallas": ["36", "37", "38", "39", "40"],
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
-        "categoria": "mujer"
+        "categoria": "mujer",
+        "precio": 50000
+
       },
       {
         "id": 9,
@@ -84,7 +99,9 @@
         "colores": ["azul", "rojo", "verde"],
         "tallas": ["25", "26", "27", "28", "29", "30"],
         "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatilla-puma-r78-ni_o-gris-640010373617007-1.jpg",
-        "categoria": "niño"
+        "categoria": "niño",
+        "precio": 50000
+
       },
       {
         "id": 10,
@@ -93,7 +110,9 @@
         "colores": ["negro", "blanco", "gris"],
         "tallas": ["25", "26", "27", "28", "29", "30"],
         "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatilla-puma-r78-ni_o-gris-640010373617007-1.jpg",
-        "categoria": "niño"
+        "categoria": "niño",
+        "precio": 50000
+
       },
       {
         "id": 11,
@@ -102,7 +121,9 @@
         "colores": ["azul", "rojo", "verde"],
         "tallas": ["25", "26", "27", "28", "29", "30"],
         "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatilla-puma-r78-ni_o-gris-640010373617007-1.jpg",
-        "categoria": "niño"
+        "categoria": "niño",
+        "precio": 50000
+
       },
       {
         "id": 12,
@@ -111,7 +132,9 @@
         "colores": ["negro", "blanco", "gris"],
         "tallas": ["25", "26", "27", "28", "29", "30"],
         "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatilla-puma-r78-ni_o-gris-640010373617007-1.jpg",
-        "categoria": "niño"
+        "categoria": "niño",
+        "precio": 50000
+
       },
       {
         "id": 13,
@@ -120,7 +143,9 @@
         "colores": ["negro", "blanco", "azul"],
         "tallas": ["37", "38", "39", "40", "41", "42", "43", "44", "45"],
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
-        "categoria": "mujer"
+        "categoria": "mujer",
+        "precio": 50000
+
       },
       {
         "id": 14,
@@ -129,7 +154,9 @@
         "colores": ["gris", "rojo", "verde"],
         "tallas": ["37", "38", "39", "40", "41", "42", "43", "44", "45"],
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
-        "categoria": "mujer"
+        "categoria": "mujer",
+        "precio": 50000
+
       },
       {
         "id": 15,
@@ -138,7 +165,9 @@
         "colores": ["azul", "blanco", "gris"],
         "tallas": ["37", "38", "39", "40", "41", "42", "43", "44", "45"],
         "imagen": "https://http2.mlstatic.com/D_NQ_NP_688409-MLA48881777175_012022-O.webp",
-        "categoria": "mujer"
+        "categoria": "mujer",
+        "precio": 50000
+
       }
     ]
   }
