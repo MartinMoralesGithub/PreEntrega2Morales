@@ -1,6 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { getFirestore, collection, addDoc, getDocs } from "firebase/firestore";
+import { CartContext } from '../context/Cartcontext';
+import {db} from '../service/firebase/firebaseConfig'
+
 
 export const Checkout = () => {
+  
+  const {cart,sumarPrecios,}= useContext(CartContext)
+  
 
   const [formData, setFormData] = useState({
     firstName: '',
@@ -10,6 +17,7 @@ export const Checkout = () => {
     confirmEmail: '',
     orderCode: ''
   });
+
   const [showPopup, setShowPopup] = useState(false);
 
   const handleChange = (e) => {
@@ -25,14 +33,29 @@ export const Checkout = () => {
     if (formData.email !== formData.confirmEmail) {
       alert('Los correos electrónicos no coinciden');
       return;
-    }
-    // Aquí puedes generar el código de orden
-    const orderCode = Math.floor(Math.random() * 1000000);
-    setFormData({
-      ...formData,
-      orderCode: orderCode
+    }else{
+      setFormData({...formData, });
+      
+      const orderCollection = addDoc(collection(db, 'ordenes'),
+      {total: sumarPrecios(), 
+      productos: cart,
+      fecha: new Date().toISOString(),	
+      datos: formData });
+
+  const collectionRef = collection(db, 'ordenes');
+  getDocs(collectionRef)
+  .then((querySnapshot) => {
+    querySnapshot.forEach((doc) => {
+      setFormData({...formData, 
+        orderCode: doc.id});
     });
-    setShowPopup(true);
+  })
+  .catch((error) => {
+    console.error('Error al obtener documentos:', error);
+  });
+
+      setShowPopup(true);
+    }
   };
 
   const handleClosePopup = () => {

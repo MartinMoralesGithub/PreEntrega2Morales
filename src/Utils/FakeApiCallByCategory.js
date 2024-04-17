@@ -4,7 +4,7 @@ export const fakeApiCallByCategory = (categoryId) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(products.productos.filter(prod => prod.categoria === categoryId))
-      }, 2000)
+      }, 500)
     })
   }
   
